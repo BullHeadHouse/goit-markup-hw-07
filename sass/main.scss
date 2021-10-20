@@ -8,8 +8,10 @@
 // BASE
 
 // COMPONENTS
+@import './components/backdrop';
 @import './components/container';
 @import './components/btn';
+@import './components/filters';
 @import './components/section';
 // COMPONENTS
 
@@ -20,5 +22,6 @@
 @import './layout/drafts';
 @import './layout/team';
 @import './layout/clients';
+@import './layout/projects';
 @import './layout/footer';
 // LAYOUT
