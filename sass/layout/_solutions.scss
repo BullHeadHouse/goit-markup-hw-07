@@ -1,0 +1,45 @@
+/* SOLUTIONS */
+.qualities {
+  padding-bottom: 0;
+}
+.solutions {
+  display: flex;
+}
+.solutions .item {
+  width: 270px;
+}
+.solutions .item + .item {
+  margin-left: 30px;
+}
+.placeicon {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.placeicon.quality-i-station {
+  background-image: url('../images/station.svg');
+}
+.placeicon.quality-i-clock {
+  background-image: url('../images/clock.svg');
+}
+.placeicon.quality-i-diagram {
+  background-image: url('../images/diagram.svg');
+}
+.placeicon.quality-i-astronaut {
+  background-image: url('../images/astronaut.svg');
+}
+.quality-title {
+  margin-bottom: 10px;
+
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  font-size: inherit;
+}
+.quality {
+  color: var(--secondary-text-color);
+  line-height: 1.71;
+}

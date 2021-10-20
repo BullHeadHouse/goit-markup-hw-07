@@ -1,0 +1,107 @@
+/* FOOTER */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--hero-footer-bgc);
+}
+.f-content {
+  display: flex;
+}
+.logo-footer {
+  margin-bottom: 20px;
+  /* display: inline-block; */
+}
+.address {
+  font-style: normal;
+  line-height: 1.6;
+}
+.street-address {
+  text-decoration: none;
+}
+.footer .logo-studio,
+.addlinks .street-address {
+  color: var(--white-color);
+}
+.addlinks .link {
+  color: var(--footerlink-color);
+}
+.addlink:not(:last-child) {
+  margin-bottom: 9px;
+}
+.addlinks .street-address:hover,
+.addlinks .street-address:focus,
+.addlinks .link:hover,
+.addlinks .link:focus,
+.modal-close:hover {
+  color: var(--accent-color);
+}
+.socials-block {
+  width: 206px;
+  height: 80px;
+  margin-top: 12px;
+  margin-left: 70px;
+}
+.footer-header {
+  margin-bottom: 20px;
+
+  color: var(--white-color);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  font-size: inherit;
+}
+.footer-socials {
+  display: flex;
+}
+.footer-link {
+  width: 44px;
+  height: 44px;
+}
+.footer-link:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-icon {
+  border-radius: 50%;
+
+  color: var(--white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-icon:hover,
+.footer-icon:focus {
+  background-color: var(--accent-color);
+}
+.mailing-form {
+  height: 86px;
+  margin-top: 12px;
+  margin-left: 93px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.mailing-form input {
+  width: 358px;
+  margin-right: 10px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--hero-footer-bgc);
+}
+.mailing-form input:hover,
+.mailing-form input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+.mailing-form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-form,
+.footer-form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mailing-form svg {
+  margin-left: 10px;
+}

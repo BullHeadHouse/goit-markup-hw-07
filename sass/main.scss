@@ -1,0 +1,24 @@
+// UTILS
+@import './utils/variables';
+// UTILS
+
+// BASE
+@import './base/reset';
+@import './base/common';
+// BASE
+
+// COMPONENTS
+@import './components/container';
+@import './components/btn';
+@import './components/section';
+// COMPONENTS
+
+// LAYOUT
+@import './layout/header';
+@import './layout/hero';
+@import './layout/solutions';
+@import './layout/drafts';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+// LAYOUT

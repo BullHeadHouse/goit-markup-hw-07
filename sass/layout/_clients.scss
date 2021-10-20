@@ -1,0 +1,21 @@
+/* OUR CLIENTS */
+.clients {
+  display: flex;
+}
+.client-link {
+  width: 170px;
+  height: 92px;
+}
+.clients .client-link:nth-child(n + 2) {
+  margin-left: 30px;
+}
+.client-icon {
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  color: var(--main-icon);
+}
+.client-icon:hover,
+.client-icon:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
