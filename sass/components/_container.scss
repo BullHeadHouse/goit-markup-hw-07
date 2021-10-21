@@ -3,5 +3,8 @@
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  /* background-color: lightcoral; */
+  &--flex {
+    display: flex;
+    // align-items: center;
+  }
 }
