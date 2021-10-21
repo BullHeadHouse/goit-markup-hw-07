@@ -1,4 +1,3 @@
-/* HERO */
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -15,14 +14,14 @@
     ),
     url('../images/team.jpg');
 }
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
-
-  color: var(--white-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  color: var(--white-color);
 }

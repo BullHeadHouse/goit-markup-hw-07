@@ -8,10 +8,10 @@ body {
   letter-spacing: 0.03em;
 }
 
-.icon {
-  fill: currentColor;
-}
-.social-icon,
+// .icon {
+//   fill: currentColor;
+// }
+.clients__social,
 .modal-close {
   display: flex;
   width: 100%;
@@ -24,9 +24,9 @@ body {
 .contacts__link,
 .button,
 .team-icon,
-.client-icon,
-.element,
-.element-thumbtitle,
+.clients__social,
+.grid-project,
+.grid-project__thumbtitle,
 .street-address,
 .footer-icon,
 .backdrop,

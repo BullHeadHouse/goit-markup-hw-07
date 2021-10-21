@@ -1,28 +1,27 @@
-/* PROJECTS */
-.projects {
+.grid {
   display: flex;
   flex-wrap: wrap;
 
   margin-left: -30px;
   margin-top: -30px;
 }
-.element {
+.grid-project {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
-.element-link {
+.grid-project__link {
   display: block;
 }
-.element:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.element-thumb {
+.grid-project__thumb {
   position: relative;
   overflow: hidden;
 }
-.element-thumbtitle {
+.grid-project__thumbtitle {
   position: absolute;
   top: 0;
   left: 0;
@@ -35,17 +34,18 @@
   background-color: rgba(33, 150, 243, 0.9);
 
   transform: translateY(100%);
+
+  .grid-project__link:hover &,
+  .grid-project__link:focus & {
+    transform: translateY(0);
+  }
 }
-.element-link:hover .element-thumbtitle,
-.element-link:focus .element-thumbtitle {
-  transform: translateY(0);
-}
-.project-titletype {
+.grid-project__titletype {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
-.project-title {
+.grid-project__title {
   margin-bottom: 4px;
 
   color: var(--primary-text-color);
@@ -54,7 +54,7 @@
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.project-type {
+.grid-project__type {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.9;
