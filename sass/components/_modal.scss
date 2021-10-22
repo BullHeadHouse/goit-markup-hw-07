@@ -13,6 +13,7 @@
   border-radius: 4px;
   &__check-link {
     color: var(--accent-color);
+    text-decoration: underline;
   }
 }
 .close-btn {
@@ -138,7 +139,8 @@
     background-origin: border-box;
   }
 }
-.modal__form button {
+.modal__btn {
+  @extend .btn__first;
   display: block;
   margin: 30px auto 0;
 }

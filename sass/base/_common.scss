@@ -10,7 +10,8 @@ body {
 
 .navpages__link,
 .contacts__link,
-.btn,
+.btn__first,
+.btn__second,
 .social-links__link,
 .clients__social,
 .grid-project,
@@ -22,7 +23,8 @@ body {
 .backdrop,
 .close-btn,
 .modal__input,
-.modal__comment {
+.modal__comment,
+.modal__btn {
   transition-property: color, background-color, box-shadow, transform, opacity,
     border;
   transition-duration: 250ms;

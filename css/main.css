@@ -86,7 +86,9 @@ body {
 
 .navpages__link,
 .contacts__link,
-.btn,
+.btn__first,
+.modal__btn,
+.btn__second,
 .social-links__link,
 .clients__social,
 .grid-project,
@@ -99,7 +101,8 @@ body {
 .close-btn,
 .modal__input,
 .modal__comment,
-.modal__comment {
+.modal__comment,
+.modal__btn {
   -webkit-transition-property: color, background-color, opacity, border, -webkit-box-shadow, -webkit-transform;
   transition-property: color, background-color, opacity, border, -webkit-box-shadow, -webkit-transform;
   transition-property: color, background-color, box-shadow, transform, opacity, border;
@@ -152,6 +155,7 @@ body {
 
 .modal__check-link {
   color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .close-btn {
@@ -337,7 +341,7 @@ body {
   background-origin: border-box;
 }
 
-.modal__form button {
+.modal__btn {
   display: block;
   margin: 30px auto 0;
 }
@@ -355,7 +359,7 @@ body {
   display: flex;
 }
 
-.btn__first, .btn__second {
+.btn__first, .modal__btn, .btn__second {
   border: none;
   border-radius: 4px;
   font-family: inherit;
@@ -368,7 +372,9 @@ body {
   color: var(--white-color);
 }
 
-.btn__first {
+
+.btn__first,
+.modal__btn {
   width: 200px;
   padding: 10px;
   background-color: var(--accent-color);
@@ -377,7 +383,7 @@ body {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.btn__first:hover, .btn__first:focus {
+.btn__first:hover, .modal__btn:hover, .btn__first:focus, .modal__btn:focus {
   background-color: #228fe9;
 }
 
