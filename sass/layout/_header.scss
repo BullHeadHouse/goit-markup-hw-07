@@ -6,14 +6,7 @@
     display: flex;
   }
 }
-%logo {
-  display: flex;
-  align-items: center;
-  color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-}
+
 .header-logo {
   @extend %logo;
   &--studio-color {
